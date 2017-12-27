@@ -1,0 +1,519 @@
+/*选择业务开始*/
+
+.content {
+	width: 1765px;
+	height: 966px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*display:none;*/
+}
+
+.content .p1 {
+	width: 100%;
+	height: auto;
+	font-family: '微软雅黑';
+	font-size: 64px;
+	color: #29ABE2;
+	font-weight: 300;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.content .p1 span {
+	font-family: '微软雅黑';
+	font-size: 48px;
+	color: #FF4BA0;
+	float:right;
+}
+
+.content .con1 {
+	width: 100%;
+	height:385px;
+}
+
+.content .con2 .zi {
+	color: #00CFFF;
+}
+
+.con1 .title {
+	width: 39px;
+	height: 39px;
+	float: left;
+	margin-right: 14px;
+}
+
+.content .con1 .title img {
+	width: 100%;
+	height: 100%;
+}
+
+.con1 .zi {
+	width: 500px;
+	height: 39px;
+	font-family: '微软雅黑';
+	font-size: 40px;
+	color: #8912FF;
+	font-weight: 300;
+	line-height: 39px;
+}
+
+.con1 .main {
+	width: 100%;
+	height:306px;
+	margin-top:15px;
+}
+
+.con1 .main ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.content .con2 .main ul li {
+	background: url(../img/input-green-text.png) center center no-repeat;
+}
+
+.content .con2 .main ul li:nth-child(4) .icon,
+.content .con1 .main ul li:nth-child(4) .icon {
+	width: 56px;
+	height: 56px;
+}
+
+.content .con2 .main ul li:nth-child(1) .icon,
+.content .con1 .main ul li:nth-child(1) .icon {
+	width: 41px;
+	height: 48px;
+}
+.content .con1 .main ul li.sel{
+	border: 3px solid #8912FF;
+}
+.con1 .main ul li{
+	width: 560px;
+	height: 80px;
+	background: url(../img/input-purple-text.png) center center no-repeat;
+	background-size: 100%;
+	padding: 22px 27px 22px 27px;
+	position: relative;
+	border:1px solid #8912FF;
+}
+.con1 .main ul li:hover{
+	border:1px solid #fff;
+}
+.con2 .main ul li{
+	border:1px solid #29ABE2;
+}
+.content .con2 .main ul li.sel2{
+	border: 3px solid #29ABE2;
+}
+.con2 .main ul li:hover{
+	border:1px solid #fff;
+}
+.con1 .main ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.con1 .main ul li .inp {
+	width: 49px;
+	height: 49px;
+	float: right;
+	margin-top: -8px;
+}
+
+.con1 .main ul li .icon {
+	width: 55px;
+	height: 49px;
+	float: left;
+	margin-right: 27px;
+	margin-top:-8px;
+}
+
+.con1 .main ul li .tit {
+	float: left;
+	font-family: '微软雅黑';
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: 300;
+	line-height:35px;
+}
+.con1 .main ul li a .inp img {
+	width: 100%;
+	height: 100%;
+}
+.con1 .main ul li a .inp img:hover{
+	opacity:0.6;
+}
+.content .tjj {
+	width: 100%;
+	height: 79px;
+}
+
+.content .tjj a {
+	display: block;
+	width: 340px;
+	height: 79px;
+	margin: 0 auto;
+}
+
+.content .tjj .new {
+	width: 340px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content .tjj .new input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: #00CFFF;
+	font-weight: 300;
+	border:0;
+	text-align: center;
+	font-size: 36px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.content .tjj .zhezhao {
+	width: 100%;
+	height: 100%;
+	background: rgba(41, 171, 226, 0.18);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.content .tjj .juxing {
+	width: 25px;
+	height: 9px;
+	background: #29ABE2;
+}
+
+.content .tjj .juxing1 {
+	position: absolute;
+	left: -6px;
+	top: -7px;
+	z-index: 100;
+}
+
+.content .tjj .juxing2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 1px;
+	z-index: 100;
+}
+
+.content .tjj .juxing3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 323px;
+	top: 1px;
+	z-index: 100;
+}
+
+.content .tjj .juxing4 {
+	position: absolute;
+	left: 315px;
+	top: -7px;
+	z-index: 100;
+}
+
+.content .tjj .juxing5 {
+	position: absolute;
+	left: -6px;
+	top: 70px;
+	z-index: 100;
+}
+
+.content .tjj .juxing6 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 62px;
+	z-index: 100;
+}
+
+.content .tjj .juxing7 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 323px;
+	top: 62px;
+	z-index: 100;
+}
+
+.content .tjj .juxing8 {
+	position: absolute;
+	left: 315px;
+	top: 70px;
+	z-index: 100;
+}
+
+
+/*选择业务结束*/
+
+
+/*确认办理业务开始*/
+
+.rz {
+	width: 1678px;
+	height: 867px;
+	background: url(../img/rl-bj.png) center center no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 70px;
+	left: 75px;
+	display: none;
+}
+
+.rlsb {
+	width: 878px;
+	height: 524px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.rlsb h1 {
+	font-family: '微软雅黑';
+	font-size: 64px;
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+	text-align: center;
+}
+
+.tu {
+	width: 175px;
+	height: 175px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+	border: 2px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tu img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.rlsb .content1 {
+	width: 100%;
+	height: 36px;
+	margin-top: 40px;
+}
+
+.content1 p {
+	font-family: '微软雅黑';
+	font-size: 45px;
+	color: #FFFFFF;
+	font-weight: 300;
+}
+
+.lx {
+	color: #29ABE2;
+}
+
+.rlsb .content1 .name,
+.rlsb .content .sj {
+	width: 360px;
+	height: 54px;
+	margin: 0 auto;
+	font-family: '微软雅黑';
+	font-size: 50px;
+	color: #FFFFFF;
+	font-weight: 300;
+	text-align: center;
+}
+
+.content1 .lxa {
+	width: 1005;
+	height: 100%;
+	text-align: center;
+}
+
+.rlsb .content1 .sj {
+	margin-top: 40px;
+}
+
+.rlsb .content1 .name .un,
+.rlsb .content .sj .un {
+	width: ;
+	height: 100%;
+	float: left;
+}
+
+.rlsb .content1 .name .n,
+.rlsb .content .sj .n {
+	width: auto;
+	height: 100%;
+	float: right;
+}
+
+.rlsb .tj {
+	width: 100%;
+	height: 110px;
+	margin-top: 90px;
+}
+
+.rlsb .tj .new {
+	width: 340px;
+	height: 100%;
+	float: left;
+	background: #000;
+	border: 3px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj a .new input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+	font-family: '微软雅黑';
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.rlsb .tj .zhezhao {
+	width: 100%;
+	height: 100%;
+	background: rgba(41, 171, 226, 0.18);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rlsb .tj .denglu {
+	width: 340px;
+	height: 100%;
+	float: right;
+	background: #000;
+	border: 2px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj .denglu input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+}
+
+.rlsb .tj .juxing {
+	width: 25px;
+	height: 9px;
+	background: #29ABE2;
+}
+
+.juxing1 {
+	position: absolute;
+	left: -6px;
+	top: -7px;
+}
+
+.juxing2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 1px;
+}
+
+.juxing3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 409px;
+	top: 1px;
+}
+
+.juxing4 {
+	position: absolute;
+	left: 401px;
+	top: -7px;
+}
+
+.juxing5 {
+	position: absolute;
+	left: -5px;
+	top: 100px;
+}
+
+.juxing6 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 89px;
+}
+
+.juxing7 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 409px;
+	top: 93px;
+}
+
+.juxing8 {
+	position: absolute;
+	left: 399px;
+	top: 101px;
+}
+
+.juxing9 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 325px;
+	top: 1px;
+}
+
+.juxing10 {
+	position: absolute;
+	left: 316px;
+	top: -7px;
+}
+
+.juxing11 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 325px;
+	top: 93px;
+}
+
+.juxing12 {
+	position: absolute;
+	left: 316px;
+	top: 101px;
+}
+
+
+/*确认办理业务结束*/

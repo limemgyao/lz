@@ -1,0 +1,234 @@
+.rz {
+	width: 1678px;
+	height: 867px;
+	background: url(../img/rl-bj.png) center center no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 70px;
+	left: 75px;
+}
+
+.rlsb {
+	width: 990px;
+	height: 524px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.rlsb h1 {
+	font-family: '微软雅黑';
+	font-size: 64px;
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+	text-align: center;
+}
+
+.tu {
+	width: 95px;
+	height: 110px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.rlsb .content {
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.content p {
+	font-family: '微软雅黑';
+	font-size: 45px;
+	color: #FF4BA0;
+	font-weight: 300;
+}
+
+.content .lxa {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.content .lxa .left,
+.content .lxa .right {
+	display: inline-block;
+	width: 218px;
+	height: 58px;
+}
+
+.content .lxa .left img,
+.content .lxa .right img {
+	margin-bottom: 14px;
+}
+
+.rlsb .content .sj {
+	margin-top: 40px;
+}
+
+.rlsb .content .name .un,
+.rlsb .content .sj .un {
+	width: ;
+	height: 100%;
+	float: left;
+}
+
+.rlsb .content .name .n,
+.rlsb .content .sj .n {
+	width: auto;
+	height: 100%;
+	float: right;
+}
+
+.rlsb .tj {
+	width: 100%;
+	height: 110px;
+	margin-top: 90px;
+}
+
+.rlsb .tj a {
+	display: block;
+	width: 340px;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.rlsb .tj .new {
+	width: 340px;
+	height: 100%;
+	float: left;
+	background: #000;
+	border: 3px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj .new input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+	font-family: '微软雅黑';
+	color: #FFFFFF;
+}
+
+.rlsb .tj .zhezhao {
+	width: 100%;
+	height: 100%;
+	background: rgba(41, 171, 226, 0.18);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rlsb .tj .denglu {
+	width: 340px;
+	height: 100%;
+	float: right;
+	background: #000;
+	border: 2px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj .denglu input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+}
+
+.rlsb .tj .juxing {
+	width: 25px;
+	height: 9px;
+	background: #29ABE2;
+}
+
+.juxing1 {
+	position: absolute;
+	left: -6px;
+	top: -7px;
+}
+
+.juxing2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 1px;
+}
+
+.juxing3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 409px;
+	top: 1px;
+}
+
+.juxing4 {
+	position: absolute;
+	left: 401px;
+	top: -7px;
+}
+
+.juxing5 {
+	position: absolute;
+	left: -5px;
+	top: 100px;
+}
+
+.juxing6 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 89px;
+}
+
+.juxing7 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 409px;
+	top: 93px;
+}
+
+.juxing8 {
+	position: absolute;
+	left: 399px;
+	top: 101px;
+}
+
+.juxing9 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 325px;
+	top: 1px;
+}
+
+.juxing10 {
+	position: absolute;
+	left: 316px;
+	top: -7px;
+}
+
+.juxing11 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 325px;
+	top: 93px;
+}
+
+.juxing12 {
+	position: absolute;
+	left: 316px;
+	top: 101px;
+}

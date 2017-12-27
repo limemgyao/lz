@@ -1,0 +1,235 @@
+.rz {
+	width: 1090px;
+	height: 825px;
+	background: url(../img/bj2.png) center center no-repeat;
+	background-size: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.rlsb {
+	width: 729px;
+	height: 585px;
+	position: absolute;
+	right: 134px;
+	top: 90px;
+}
+
+.rlsb h1 {
+	font-family: '微软雅黑';
+	font-size: 64px;
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+	text-align: center;
+}
+
+.rlsb .name {
+	width: 100%;
+	height: 79px;
+	background: rgb(0, 0, 0, 0.51);
+	border: 1px dashed #29ABE2;
+	margin-top: 80px;
+	border-bottom: 3px solid #29ABE2;
+}
+
+input {
+	background: 0;
+	border: 0;
+	outline: none;
+}
+
+.rlsb .name input {
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+	padding-left: 40px;
+	font-size: 36px;
+}
+
+.rlsb .name input::-webkit-input-placeholder {
+	font-family: '微软雅黑';
+	font-size: 36px;
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+}
+
+.rlsb .pass {
+	width: 100%;
+	height: 79px;
+	background: rgba(0, 0, 0, 0.51);
+	border: 1px dashed #29ABE2;
+	margin-top: 80px;
+	border-bottom: 3px solid #29ABE2;
+}
+
+.rlsb .pass input[type="name"] {
+	width: auto;
+	height: 100%;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+	font-size: 36px;
+	padding-left: 40px;
+	float: left;
+}
+
+.rlsb .pass a {
+	display: block;
+	width: 177px;
+	height: 56px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.rlsb .pass a input[type="button"] {
+	width: 177px;
+	height: 56px;
+	border: 2px solid #29ABE2;
+	color: #fff;
+	font-weight: 300;
+	font-size: 28px;
+	color: rgb(41, 171, 226);
+}
+
+.rlsb .pass input::-webkit-input-placeholder {
+	font-family: '微软雅黑';
+	font-size: 36px;
+	color: rgb(41, 171, 226);
+	font-weight: 300;
+}
+
+.rlsb .tj {
+	width: 100%;
+	height: 79px;
+	margin-top: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rlsb .tj a {
+	width: 340px;
+	height: 79px;
+}
+
+.rlsb .tj .new {
+	width: 340px;
+	height: 100%;
+	float: left;
+	background: #000;
+	border: 3px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj .new input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.51);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+}
+
+.rlsb .tj .zhezhao {
+	width: 100%;
+	height: 100%;
+	background: rgba(41, 171, 226, 0.18);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rlsb .tj .denglu {
+	width: 340px;
+	height: 100%;
+	float: right;
+	background: #000;
+	border: 2px solid #29ABE2;
+	position: relative;
+}
+
+.rlsb .tj .denglu input {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.rlsb .tj .juxing {
+	width: 25px;
+	height: 9px;
+	background: #29ABE2;
+}
+
+.juxing1 {
+	position: absolute;
+	left: -6px;
+	top: -7px;
+}
+
+.juxing2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 1px;
+}
+
+.juxing3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 323px;
+	top: 1px;
+}
+
+.juxing4 {
+	position: absolute;
+	left: 315px;
+	top: -7px;
+}
+
+.juxing5 {
+	position: absolute;
+	left: -6px;
+	top: 70px;
+}
+
+.juxing6 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -14px;
+	top: 62px;
+}
+
+.juxing7 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 323px;
+	top: 62px;
+}
+
+.juxing8 {
+	position: absolute;
+	left: 315px;
+	top: 70px;
+}

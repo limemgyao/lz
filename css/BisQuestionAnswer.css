@@ -1,0 +1,160 @@
+.rz {
+	width: 1678px;
+	height: 867px;
+	background: url(../img/rl-bj.png) center center no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 70px;
+	left: 75px;
+}
+.content{
+	width:1496px;
+	height:635px;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+}
+.content .p1{
+	width:100%;
+	height:auto;
+	font-family : '微软雅黑';
+  	font-size : 64px;
+  	color : #29ABE2;
+  	text-align: center;
+  	line-height: 100%;
+  	font-weight: 300;
+}
+.main{
+	width:1490px;
+	height:529px;
+	border:3px solid #29ABE2;
+	margin-top:36px;
+}
+.main .left{
+	width:358px;
+	height:100%;
+	float:left;	
+}
+.main .left ul{
+	width:100%;
+	height:100%;
+}
+.main .left ul li{
+	width:100%;
+	height:14.285714%;
+	border:3px solid #29ABE2;
+	color:#fff;
+	background:url(../img/bisQuestion-bg.png) center center no-repeat;
+	background-size:100%;
+	cursor: pointer;
+}
+.main .left ul li .lm{
+	width:80px;
+	height:100%;
+	float:left;
+	position:relative;
+}
+.main .left ul li .lm img{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.main .left ul li .rm{
+	width:230px;
+	height:100%;
+	float:left;
+	font-family : '微软雅黑';
+  	font-size : 24px;  		
+    color : #FFFFFF;
+    line-height: 300%;
+}
+.main .right{
+	width:1126px;
+	height:100%;
+	float:right;
+	position: relative;
+}
+.main .right .ma{
+	width:1060px;
+	height:480px;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;	
+}
+.main .right .ma ul{
+	width:100%;
+	height:100%;
+}
+.ma ul li{
+	width:100%;
+	height:60px;
+	border:1px dashed #29ABE2;
+	margin-bottom: 10px;
+	background:url(../img/bisQuestion-bg-select.png) center center no-repeat;
+	background-size: 100%;
+	position:relative;
+	padding-left:20px;
+	cursor: pointer;
+}
+#sty{
+	background:#29ABE2;	
+}
+#sty1{
+	color:#000;
+}
+.main .right .ma ul li p{
+	float:left;
+	width:auto;
+	height:100%;
+	font-family : '微软雅黑';
+  	font-size : 24px;
+  	color : #00FFFF;
+  	line-height: 60px;
+}
+.main .right .ma ul li .con{
+	width:100%;
+	height:277px;
+	border:1px dashed #29ABE2;
+	position:absolute;
+	top:60px;
+	left:0;
+	padding:34px 29px 34px 29px;
+	font-family : '微软雅黑';
+  	font-size : 24px;
+  	color : #FFFFFF;
+  	overflow-x: auto;
+  	overflow-y:scroll;	
+  	display:none;
+}	
+.main .right .ma ul li:nth-child(3) .con{
+	display:block;
+}
+.act{
+	display:block;
+}
+.main .right .ma ul li .jiantou{
+	width:25px;
+	height:25px;
+	float:right;
+	margin-right: 20px;
+	margin-top:17px;
+}
+.active{
+	transform: rotate(180deg);
+}
+::-webkit-scrollbar{
+	width:13px;
+	height:197px;
+}
+::-webkit-scrollbar-thumb:vertical{
+	background:rgba(0,207,255,0.5);
+}
